@@ -41,7 +41,7 @@ def create_mel_spectrogram(audio_file, output_path="mel_spectrogram.png"):
 def display_left_content(image, prediction, probs, labels):
     st.write("### 왼쪽: 기존 출력 결과")
     if image is not None:
-        st.image(image, caption="업로드된 이미지", use_column_width=True)
+        st.image(image, caption="업로드된 이미지", use_container_width=True)
     st.write(f"예측된 클래스: {prediction}")
     st.markdown("<h4>클래스별 확률:</h4>", unsafe_allow_html=True)
     for label, prob in zip(labels, probs):
@@ -62,7 +62,7 @@ def display_right_content(prediction, data):
     # 1st Row - Images
     for i in range(3):
         with cols[i]:
-            st.image(data['images'][i], caption=f"이미지: {prediction}", use_column_width=True)
+            st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
     # 2nd Row - YouTube Videos
     for i in range(3):
         with cols[i]:
