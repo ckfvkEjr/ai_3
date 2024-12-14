@@ -97,7 +97,7 @@ st.markdown("""
 content_data = {
     'disco': {
         'images': [
-            "<div class="tenor-gif-embed" data-postid="16193568" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/70s-dancing-dance-grooves-moves-gif-16193568">70s Dancing GIF</a>from <a href="https://tenor.com/search/70s-gifs">70s GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>",
+            "https://i.ibb.co/DYRXfhr/tenor.gif",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
         ],
