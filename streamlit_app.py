@@ -148,7 +148,7 @@ content_data = {
     },
     'country': {
         'images': [
-            "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg,
+            "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg",
             "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg",
             "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg"
         ],
