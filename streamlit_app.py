@@ -95,7 +95,7 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-    'labels[0]': {
+    'disco': {
         'images': [
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
