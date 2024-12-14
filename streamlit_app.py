@@ -6,7 +6,7 @@ from PIL import Image
 import gdown
 
 # Google Drive 파일 ID
-file_id = '1xaPgoHahhdzLaIi652ySl_7Sw_Kcut9X'
+file_id = '14y7xPjVyBg_oFasSuODSHQP3b2BSm6vt'
 
 # Google Drive에서 파일 다운로드 함수
 @st.cache(allow_output_mutation=True)
@@ -18,6 +18,24 @@ def load_model_from_drive(file_id):
     # Fastai 모델 로드
     learner = load_learner(output)
     return learner
+
+# 멜 스펙트로그램 생성 함수 (이미지 저장)
+def create_mel_spectrogram(audio_file, output_path="mel_spectrogram.png"):
+    # 오디오 로드
+    y, sr = librosa.load(audio_file)
+
+    # 멜 스펙트로그램 생성
+    mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128, fmax=8000)
+    mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
+
+    # 멜 스펙트로그램 시각화 및 저장
+    plt.figure(figsize=(10, 4))
+    librosa.display.specshow(mel_spec_db, sr=sr, x_axis='time', y_axis='mel')
+    plt.colorbar(format='%+2.0f dB')
+    plt.title('Mel Spectrogram')
+    plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
+    plt.close()
+    return output_path
 
 def display_left_content(image, prediction, probs, labels):
     st.write("### 왼쪽: 기존 출력 결과")
@@ -132,13 +150,18 @@ content_data = {
 # 레이아웃 설정
 left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 조정
 
-# 파일 업로드 컴포넌트 (jpg, png, jpeg, webp, tiff 지원)
-uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "png", "jpeg", "webp", "tiff"])
+# 음악 파일 업로드
+uploaded_music = st.file_uploader("음악 파일을 업로드하세요 (MP3, WAV)", type=['mp3', 'wav'])
 
-if uploaded_file is not None:
-    image = Image.open(uploaded_file)
-    img = PILImage.create(uploaded_file)
-    prediction, _, probs = learner.predict(img)
+
+if uploaded_music is not None:
+     # 멜 스펙트로그램 생성 및 저장
+    mel_spec_path = create_mel_spectrogram(uploaded_music)
+
+    # 이미지 열기
+    mel_spec_image = PILImage.create(mel_spec_path)
+
+    prediction, _, probs = learner.predict(mel_spec_path)
     
 
     with left_column:
