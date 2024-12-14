@@ -218,7 +218,7 @@ if uploaded_music is not None:
     
 
     with left_column:
-        display_left_content(image, prediction, probs, labels)
+        display_left_content(mel_spec_path, prediction, probs, labels)
 
     with right_column:
         # 분류 결과에 따른 콘텐츠 선택
