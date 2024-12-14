@@ -98,8 +98,8 @@ content_data = {
     'disco': {
         'images': [
             "https://i.ibb.co/DYRXfhr/tenor.gif",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
+            "https://i.ibb.co/DYRXfhr/tenor.gif",
+            "https://i.ibb.co/DYRXfhr/tenor.gif"
         ],
         'videos': [
             "https://youtu.be/I_izvAbhExY?si=HxpKfg098BfLDtyW",
@@ -107,46 +107,29 @@ content_data = {
             "https://youtu.be/CS9OO0S5w2k?si=v7n75cjv6iDEpLho"
         ],
         'texts': [
-            "Label 1",
-            "Label 1",
-            "Label 1 "
+            "디스코~~",
+            "디스코~~",
+            "디스코~~"
         ]
     },
-    'labels[1]': {
+    'blues': {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            "https://i.ibb.co/7YgGLdN/image.jpg",
+            "https://i.ibb.co/7YgGLdN/image.jpg",
+            "https://i.ibb.co/7YgGLdN/image.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/4zAThXFOy2c?si=6yL37t7qeRF6gNvd",
+            "https://youtu.be/71Gt46aX9Z4?si=9AxWcxGKutLfQKUB",
+            "https://youtu.be/SgXSomPE_FY?si=01EMEwoh6aRKPvDT"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "블루스~~",
+            "블루스~~",
+            "블루스~~"
         ]
     },
-    'labels[2]': {
-        'images': [
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
-        ],
-        'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
-        ],
-        'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
-        ]
-    },
-    'labels[3]': {
+    'classical': {
         'images': [
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
@@ -163,7 +146,24 @@ content_data = {
             "Label 2 관련 세 번째 텍스트 내용입니다."
         ]
     },
-    'labels[4]': {
+    'country': {
+        'images': [
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+        ],
+        'texts': [
+            "Label 2 관련 첫 번째 텍스트 내용입니다.",
+            "Label 2 관련 두 번째 텍스트 내용입니다.",
+            "Label 2 관련 세 번째 텍스트 내용입니다."
+        ]
+    },
+    'hiphop': {
         'images': [
             "https://via.placeholder.com/300?text=Label2_Image1",
             "https://via.placeholder.com/300?text=Label2_Image2",
@@ -180,7 +180,7 @@ content_data = {
             "Label 2 관련 세 번째 텍스트 내용입니다."
         ]
     },
-    'labels[5]': {
+    'jazz': {
         'images': [
             "https://via.placeholder.com/300?text=Label2_Image1",
             "https://via.placeholder.com/300?text=Label2_Image2",
