@@ -154,7 +154,7 @@ content_data = {
         ],
         'videos': [
             "https://youtu.be/7qaHdHpSjX8?si=SkmYtU-ow6kmTBZ6",
-            "https://youtu.be/dRX0wDNK6S4?si=Vl40DjWjQTv6HwWz,
+            "https://youtu.be/dRX0wDNK6S4?si=Vl40DjWjQTv6HwWz",
             "https://youtu.be/WBDpb7SwSgU?si=7g3el6N5VHOhVjGW"
         ],
         'texts': [
