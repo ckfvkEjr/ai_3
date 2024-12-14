@@ -97,14 +97,14 @@ st.markdown("""
 content_data = {
     'disco': {
         'images': [
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "<div class="tenor-gif-embed" data-postid="16193568" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/70s-dancing-dance-grooves-moves-gif-16193568">70s Dancing GIF</a>from <a href="https://tenor.com/search/70s-gifs">70s GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://youtu.be/I_izvAbhExY?si=HxpKfg098BfLDtyW",
+            "https://youtu.be/yURRmWtbTbo?si=Utom01m0eX3P6sZK",
+            "https://youtu.be/CS9OO0S5w2k?si=v7n75cjv6iDEpLho"
         ],
         'texts': [
             "Label 1",
