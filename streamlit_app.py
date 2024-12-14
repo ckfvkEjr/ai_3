@@ -94,11 +94,11 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-    labels[0]: {
+    'labels[0]': {
         'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
         ],
         'videos': [
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
@@ -106,12 +106,12 @@ content_data = {
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
-            "Label 1 관련 첫 번째 텍스트 내용입니다.",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "Label 1",
+            "Label 1",
+            "Label 1 "
         ]
     },
-    labels[1]: {
+    'labels[1]': {
         'images': [
             "https://via.placeholder.com/300?text=Label2_Image1",
             "https://via.placeholder.com/300?text=Label2_Image2",
@@ -128,24 +128,76 @@ content_data = {
             "Label 2 관련 세 번째 텍스트 내용입니다."
         ]
     },
-    labels[2]: {
+    'labels[2]': {
         'images': [
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
             "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
         ],
         'videos': [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://youtu.be/unrcrAUdqH8?feature=shared",
-            "https://www.youtube.com/watch?v=6IpEMl-dgn0"
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
         ],
         'texts': [
-            "핑동",
-            "솔직히 겜 똥인듯ㅋㅋ",
-            "ㄹㅇㅋㅋ만 치라고"
+            "Label 2 관련 첫 번째 텍스트 내용입니다.",
+            "Label 2 관련 두 번째 텍스트 내용입니다.",
+            "Label 2 관련 세 번째 텍스트 내용입니다."
+        ]
+    },
+    'labels[3]': {
+        'images': [
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
+            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+        ],
+        'texts': [
+            "Label 2 관련 첫 번째 텍스트 내용입니다.",
+            "Label 2 관련 두 번째 텍스트 내용입니다.",
+            "Label 2 관련 세 번째 텍스트 내용입니다."
+        ]
+    },
+    'labels[4]': {
+        'images': [
+            "https://via.placeholder.com/300?text=Label2_Image1",
+            "https://via.placeholder.com/300?text=Label2_Image2",
+            "https://via.placeholder.com/300?text=Label2_Image3"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+        ],
+        'texts': [
+            "Label 2 관련 첫 번째 텍스트 내용입니다.",
+            "Label 2 관련 두 번째 텍스트 내용입니다.",
+            "Label 2 관련 세 번째 텍스트 내용입니다."
+        ]
+    },
+    'labels[5]': {
+        'images': [
+            "https://via.placeholder.com/300?text=Label2_Image1",
+            "https://via.placeholder.com/300?text=Label2_Image2",
+            "https://via.placeholder.com/300?text=Label2_Image3"
+        ],
+        'videos': [
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+        ],
+        'texts': [
+            "Label 2 관련 첫 번째 텍스트 내용입니다.",
+            "Label 2 관련 두 번째 텍스트 내용입니다.",
+            "Label 2 관련 세 번째 텍스트 내용입니다."
         ]
     }
 }
+
 
 # 레이아웃 설정
 left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 조정
