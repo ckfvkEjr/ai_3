@@ -131,70 +131,70 @@ content_data = {
     },
     'classical': {
         'images': [
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
+            "https://i.ibb.co/3k7wmkZ/14668.webp",
+            "https://i.ibb.co/3k7wmkZ/14668.webp",
+            "https://i.ibb.co/3k7wmkZ/14668.webp"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/l0GN40EL1VU?si=ueYMu6WwoDe9WwSO",
+            "https://youtu.be/4exkCrFCBps?si=j1JyYf35P66Rz08O",
+            "https://youtu.be/p29JUpsOSTE?si=xBBtvgALxiADuZHE"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "클래식~~",
+            "클래식~~",
+            "클래식~~"
         ]
     },
     'country': {
         'images': [
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg",
-            "https://i.ibb.co/Gp5KgvV/memed-io-output.jpg"
+            "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg,
+            "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg",
+            "https://i.ibb.co/WVJP2hL/funny-country-music-memes-2.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/7qaHdHpSjX8?si=SkmYtU-ow6kmTBZ6",
+            "https://youtu.be/dRX0wDNK6S4?si=Vl40DjWjQTv6HwWz,
+            "https://youtu.be/WBDpb7SwSgU?si=7g3el6N5VHOhVjGW"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "컨트리~~",
+            "컨트리~~",
+            "컨트리~~"
         ]
     },
     'hiphop': {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            "https://i.ibb.co/sJNvxwV/images.jpg",
+            "https://i.ibb.co/sJNvxwV/images.jpg",
+            "https://i.ibb.co/sJNvxwV/images.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/DmWWqogr_r8?si=XOHGRx5O7SQEsxxS",
+            "https://youtu.be/S9bCLPwzSC0?si=vHEK7ZjkfeaHXOI6",
+            "https://youtu.be/tvTRZJ-4EyI?si=dgQQh2G6RYwu5n4V"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "힙합~~",
+            "힙합~~",
+            "힙합~~"
         ]
     },
     'jazz': {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            "https://i.ibb.co/w6K3sNw/10d723cdc89427f05a38f350103ed792.jpg",
+            "https://i.ibb.co/w6K3sNw/10d723cdc89427f05a38f350103ed792.jpg",
+            "https://i.ibb.co/w6K3sNw/10d723cdc89427f05a38f350103ed792.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/Cv9NSR-2DwM?si=nx66HKo5SoH9CakP",
+            "https://youtu.be/ylXk1LBvIqU?si=-PPM6GP9wcUG_ZMN",
+            "https://youtu.be/-488UORrfJ0?si=UZVnsAVC4N-kaSz9"
         ],
         'texts': [
-            "Label 2 관련 첫 번째 텍스트 내용입니다.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "재즈~~",
+            "재즈~~",
+            "재즈~~"
         ]
     }
 }
